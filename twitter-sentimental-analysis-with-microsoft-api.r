@@ -1,10 +1,10 @@
 rm(list=ls(all=TRUE));
 
 Consumer_API_Key <- 'REPLACE HERE';
-Consumer_Secret <- 'REPLACE HERE'';
-Access_Token <- 'REPLACE HERE'';
-Access_Token_Secret <- 'REPLACE HERE'';
-Microsoft_API_Key <- 'REPLACE HERE'';
+Consumer_Secret <- 'REPLACE HERE';
+Access_Token <- 'REPLACE HERE';
+Access_Token_Secret <- 'REPLACE HERE';
+Microsoft_API_Key <- 'REPLACE HERE';
 
 # **********************************************************************************
 # Twitter Social Analysis using Microsoft API Text Analytics
@@ -99,11 +99,10 @@ tweets_df$Score <- c(score_twitter$Score);
 detach(Output_Sentimental);
 rm(score_twitter);
 
-## EM CONSTRUCAO
-# Transforming resulting in Data Frame (Key Phrases)
+## WORKING ON IT
+# Transforming resulting in Data Frame (Key Phrases) - NOT WORKING TO PORTUGUESE
 #Output_keyPhrases = content(result_twitter_keyPhrases);
 #attach(Output_keyPhrases);
 #rows <- length(documents);
 #phrases_twitter = data.frame(matrix(unlist(Output_keyPhrases), nrow=rows, byrow=T));
-
  
