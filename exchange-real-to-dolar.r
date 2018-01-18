@@ -11,7 +11,7 @@
 #   All rights reserved. 
 #
 #   For more scripts and sample code, check out 
-#      http://vssti.com.br.com/blog/
+#      http://blog.vssti.com.br.com/
 #
 #   You may alter this code for your own *non-commercial* purposes. You may
 #   republish altered code as long as you include this copyright and give due credit. 
